@@ -26,6 +26,7 @@ const AdminQuestionTextTr = ({ questionText, questionTexts, setQuestionTexts } :
         setBtnTxt('Atualizar');
         setBtnTxtDelete('Excluir');
         setText(questionText?.text!);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleOpenUpdate = () => {

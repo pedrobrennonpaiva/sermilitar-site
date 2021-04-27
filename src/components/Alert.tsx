@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default ({ state }: any) => {
+const Alert = ({ state }: any) => {
 
     const [showAlert, setShowAlert] = useState(false);
     const [alertDisplay, setAlertDisplay] = useState("none");
@@ -43,7 +43,7 @@ export default ({ state }: any) => {
 
     useEffect(() => {
         setAlert();
-    }, [localStorage.getItem('alert-message')]);
+    }, [setAlert, localStorage.getItem('alert-message')]);
 
     return (
         <div>
@@ -60,3 +60,5 @@ export default ({ state }: any) => {
         </div>
     )
 }
+
+export default Alert;

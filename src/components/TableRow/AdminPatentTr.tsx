@@ -26,6 +26,7 @@ const AdminPatentTr = ({ patent, patents, setPatents } : AdminPatentParams) => {
         setBtnTxt('Atualizar');
         setBtnTxtDelete('Excluir');
         setName(patent?.name!);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleOpenUpdate = () => {

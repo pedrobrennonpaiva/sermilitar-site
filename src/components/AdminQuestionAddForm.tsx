@@ -112,6 +112,7 @@ const AdminQuestionAddForm = ({
         });
 
         setOptionQuestionTextSelect(qtSelect);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const getSubjectMatter = async (subjectId: string, subjectMatterId?: string) => {

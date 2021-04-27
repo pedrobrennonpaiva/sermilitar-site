@@ -33,6 +33,7 @@ const AdminSubjectMatterTr = ({ subjectMatter, subjectMatters, setSubjectMatters
         setBtnTxtDelete('Excluir');
         setName(subjectMatter?.name!);
         setSubjectSelect(optionSubjectSelect.find(x => x.value === subjectMatter?.subjectId));
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleOpenUpdate = () => {

@@ -26,6 +26,7 @@ const AdminArmedForceTr = ({ armedForce, armedForces, setArmedForces } : AdminAr
         setBtnTxt('Atualizar');
         setBtnTxtDelete('Excluir');
         setName(armedForce?.name!);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleOpenUpdate = () => {

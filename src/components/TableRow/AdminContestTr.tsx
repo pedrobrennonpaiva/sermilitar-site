@@ -77,6 +77,7 @@ const AdminContestTr = ({
         setLocations(contest?.locations);
         setDuration(contest?.duration);
         setSite(contest?.site);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleArmedForceSelect = (event: ValueType<SelectModel, false>) => setArmedForceSelect(event);

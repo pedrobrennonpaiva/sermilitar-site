@@ -26,6 +26,7 @@ const AdminScholarityTr = ({ scholarity, scholarities, setScholarities } : Admin
         setBtnTxt('Atualizar');
         setBtnTxtDelete('Excluir');
         setName(scholarity?.name!);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleOpenUpdate = () => {

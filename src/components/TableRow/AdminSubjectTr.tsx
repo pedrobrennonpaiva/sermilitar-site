@@ -26,6 +26,7 @@ const AdminSubjectTr = ({ subject, subjects, setSubjects } : AdminSubjectParams)
         setBtnTxt('Atualizar');
         setBtnTxtDelete('Excluir');
         setName(subject?.name!);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     const handleOpenUpdate = () => {
