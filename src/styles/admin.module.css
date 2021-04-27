@@ -1,0 +1,166 @@
+
+@import './app.css';
+
+@media only screen and (max-width: 768px) {
+
+    .div_buttons {
+        flex-direction: column !important;
+        text-align: center !important;
+        justify-content: center !important;
+    }
+}
+
+.div_buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.h_title {
+    font-family: var(--font-bold);
+    color: var(--color-primary);
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 50px !important;
+    text-transform: uppercase;
+}
+
+.btn_menu {
+    background: var(--color-tertiary) !important;
+    color: var(--color-white) !important;
+    border: none !important;
+    padding: 4px 12px !important;
+    border-radius: 20px !important;
+    text-transform: uppercase !important;
+    cursor: pointer;
+}
+
+.btn_menu:hover {
+    background: var(--color-secondary) !important;
+    color: var(--color-white) !important;
+    text-decoration: none !important;
+}
+
+.btn_add {
+    background: var(--color-tertiary);
+    color: var(--color-white);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn_add:hover {
+    background: var(--color-secondary);
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.btn_table_primary {
+    background: var(--color-tertiary);
+    color: var(--color-white);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn_table_primary:hover {
+    background: var(--color-secondary);
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.btn_table_secondary {
+    background: var(--color-secondary);
+    color: var(--color-white);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn_table_secondary:hover {
+    background: var(--color-tertiary);
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.td_buttons {
+    text-align: right;
+}
+
+.form_label_required::after {
+    content: "*";
+    color: red;
+}
+
+.form_alternative {
+    font-size: 14px;    
+}
+
+.btn_add_alternative {
+    background: none;
+    color: var(--color-tertiary);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn_add_alternative:hover {
+    text-decoration: underline;
+}
+
+.btn_remove_alternative {
+    background: none;
+    color: var(--color-red);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn_remove_alternative:hover {
+    color: var(--color-secondary);
+}
+
+.btn_incorrect_alternative {
+    background: none;
+    color: var(--color-gray);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn_incorrect_alternative:hover {
+    color: var(--color-primary);
+}
+
+.btn_correct_alternative {
+    color: var(--color-primary) !important;
+}
+
+.input_file {
+    background: none;
+    color: var(--color-secondary);
+    border: none;
+    padding: 4px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.input_file:hover {
+    text-decoration: underline;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.div_btn_remove {
+    right: 7px;
+    top: 10px;
+    position: absolute;
+}

@@ -1,0 +1,34 @@
+
+@import "./app.css";
+
+.header {
+    padding: 10px;
+    background-color: var(--color-primary);
+    border-bottom: 1px solid rgba(102, 32, 156, 0.2);
+}
+
+.navbar_brand {
+    padding: 0px !important;
+    margin-left: 15px;
+}
+
+.img_logo {
+    width: 60px;
+}
+
+.nav_link {
+    background-color: var(--color-primary) !important;
+    color: var(--color-white) !important;
+    border: none !important;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px !important;
+    cursor: pointer;
+    display: flex !important;
+    align-items: center;
+}
+
+.nav_link:hover {
+    color: var(--color-secondary) !important;
+}

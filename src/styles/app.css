@@ -1,0 +1,104 @@
+
+@font-face {
+    font-family: 'MontserratLight';
+    src: url('../fonts/Montserrat-Light.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/Montserrat-Light.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Montserrat-Light.ttf') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Montserrat-Light.ttf') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Montserrat-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Montserrat-Light.ttf') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'GothamLight';
+    src: url('../fonts/Gotham-Light.otf'); /* IE9 Compat Modes */
+    src: url('../fonts/Gotham-Light.otf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Gotham-Light.otf') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Gotham-Light.otf') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Gotham-Light.otf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Gotham-Light.otf') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'GothanBlack';
+    src: url('../fonts/Gotham-Black.otf'); /* IE9 Compat Modes */
+    src: url('../fonts/Gotham-Black.otf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Gotham-Black.otf') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Gotham-Black.otf') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Gotham-Black.otf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Gotham-Black.otf') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../fonts/GothamMedium.ttf'); /* IE9 Compat Modes */
+    src: url('../fonts/GothamMedium.ttf') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/GothamMedium.ttf') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/GothamMedium.ttf') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/GothamMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/GothamMedium.ttf') format('svg'); /* Legacy iOS */
+}
+
+body {
+    font-family: 'MontserratLight', sans-serif !important;
+}
+
+:root {
+    font-family: 'MontserratLight', sans-serif !important;
+
+    --color-primary: #152316;
+    --color-secondary: #3f7743;
+    --color-tertiary: #4d2420;
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-gray-dark: #373737;
+    --color-gray-medium-dark: #696667;
+    --color-gray-medium: #737a8d;
+    --color-gray: #e6e6e6;
+    --color-red: #dc3545;
+
+    --font-primary: 'MontserratLight', sans-serif !important;
+    --font-medium: 'GothamMedium', sans-serif !important;
+    --font-bold: 'GothanBlack', sans-serif !important;
+}
+
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.div-root {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-flow: column;
+    padding-bottom: 40px;
+}
+
+.color_primary {
+    color: var(--color-primary) !important;
+}
+
+.alert-message {
+    position: fixed !important;
+    top: 80px;
+    right: 10px;
+    z-index: 999;
+    border: none !important;
+    color: white !important;
+}
+
+.alert-success {
+    background-color: #46a049 !important;
+}
+
+.alert-danger {
+    background-color: #EF4051 !important;
+}
+
+.close {
+    color: white !important;
+    opacity: 1 !important;
+    padding: 0.6rem 1.25rem !important;
+}

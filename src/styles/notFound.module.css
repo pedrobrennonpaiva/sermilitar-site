@@ -1,0 +1,39 @@
+
+@import './app.css';
+
+.div_full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--color-primary);
+    background-size: cover;
+}
+
+.card_login {
+    border: 0px !important;
+    border-radius: 20px !important;
+    width: 310px;
+    min-width: 200px;
+    max-width: 310px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img_logo {
+    width: 150px;
+    display: block;
+    margin: 0px auto;
+    cursor: pointer;
+}
+
+.h_registration {
+    font-family: var(--font-bold);
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+.h_registration:hover {
+    color: var(--color-secondary);
+    cursor: pointer;
+}
